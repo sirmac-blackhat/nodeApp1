@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<style type="text/css">
+  body {
+    margin:50px 0px; padding:0px;
+    text-align:center;
+    align:center;
+    background-color: brown;
+    background-image: login.png;
+}
+
+</style>
+  <head>
+    <meta charset="utf-8">
+    <title>Reg Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+<div class="body">
+ <form action="/login" method="GET">
+
+  <h1>LOGIN</h1>
+  <p><h3>LogIn below, or SignUp <a href="/reg_form"> Here!</a></h3></p>
+
+  <div class="jina">
+  <input type="text" placeholder="Name" name="fname">
+  </div>
+   <br> 
+
+    <div class="mail">
+    <input type="email" placeholder="email" name="email">
+    </div>
+    <br><br>
+      <button><a href="/workspace"></a>LogIn</button>
+      <script type="text/javascript">
+        res.redirect('/workspace');
+      </script>
+    </form>
+
+    </div>
+  </body>
+</html>
